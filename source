@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("TITLE", "BloodTheme")
 
 -- MAIN
-local Main = Window:NewTab("Main")
+local Main = Window:NewTab("Comet Snipe V1.1")
 local MainSection = Main:NewSection("Main")
 
 
